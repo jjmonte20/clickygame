@@ -1,8 +1,17 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import pics from "./pics.json";
 
 class App extends Component {
+
+  // state changes depending on the array that is chosen
+  state = {
+    // setting this.state.whateverIchoosehere
+    pics
+  }
+
+  // the render portion is what displays on screen
   render() {
     return (
       <div className="App">
